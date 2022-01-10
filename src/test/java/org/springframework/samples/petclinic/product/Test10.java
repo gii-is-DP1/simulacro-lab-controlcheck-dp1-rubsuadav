@@ -46,7 +46,7 @@ public class Test10 {
     @WithMockUser(value = "spring", authorities = {"admin"})
     @Test
     void test10()  throws Exception {
-        testProductCreationControllerOK();
+        //testProductCreationControllerOK();
         testProductCreationControllerWrongPrice();
         testProductCreationControllerWrongProductName();
     }
